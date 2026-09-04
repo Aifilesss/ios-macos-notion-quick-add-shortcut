@@ -9,8 +9,6 @@ You can install the shortcut using either option below:
 * **Option 1 (iCloud Link):** Tap the [iOS & macOS Notion Quick Add Shortcut link](https://www.icloud.com/shortcuts/82191b3b26b6458cbd084023a44536dd) and tap **Add Shortcut** when prompted.
 * **Option 2 (Direct File):** Download the [To.Notion.GitHub.shortcut](https://github.com/Aifilesss/ios-macos-notion-quick-add-shortcut/releases/download/v1.0.0/To.Notion.GitHub.shortcut) file directly from this release and double-click it to import it into your Shortcuts app.
 
-*Tested and compatible with iOS 17+ and macOS Sonoma+.*
-
 Follow the Setup steps below before running it for the first time.
 
 ## What it does
