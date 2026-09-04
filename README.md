@@ -66,10 +66,7 @@ Your target database needs these three properties, named and typed exactly as be
 2. Toggle on **Show in Share Sheet**
 3. Under **Accepts**, make sure URLs/web pages are included
 
-## Notes
+### Notes
 
 - Keep your integration token private — anyone with it can write to any database you've shared with that integration.
-  
-- **Troubleshooting:** 
-  - If nothing appears in Notion after running the shortcut, make sure you have fully shared your database with your integration (see Step 2) and that your database ID is copied correctly with dashes.
-  - If the request fails, double-check that your Notion database property names match the exact case-sensitive names (`Name`, `Date`, `Text`).
+- **Troubleshooting:** If nothing appears in Notion after running the shortcut, make sure you have fully shared your database with your integration (see Step 2) and that your database ID is copied correctly with dashes.
