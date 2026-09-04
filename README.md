@@ -69,5 +69,7 @@ Your target database needs these three properties, named and typed exactly as be
 ## Notes
 
 - Keep your integration token private — anyone with it can write to any database you've shared with that integration.
-- If you get a `404 object_not_found` error, the database isn't shared with your integration yet (see Step 2), or the database ID is wrong.
-- If you get a `400 validation_error` mentioning a property name, double check that your database's property names match exactly (`Name`, `Date`, `Text`).
+  
+- **Troubleshooting:** 
+  - If nothing appears in Notion after running the shortcut, make sure you have fully shared your database with your integration (see Step 2) and that your database ID is copied correctly with dashes.
+  - If the request fails, double-check that your Notion database property names match the exact case-sensitive names (`Name`, `Date`, `Text`).
