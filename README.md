@@ -1,6 +1,6 @@
 # Notion Quick Add Shortcut (To Notion)
 
-An Apple Shortcut called "To Notion" for iOS and macOS that prompts you for custom task text, logs today's date, and creates a new page in a Notion database. Trigger it from your home screen, menu bar, or any app via the Share Sheet (built for the Calendar layout, but compatible with others). It also captures optional shared URLs from your browser or other apps into a designated text property.
+An Apple Shortcut called "To Notion" for iOS and macOS that prompts you for custom task text, logs today's date, and creates a new page in a Notion database. Trigger it from your home screen, menu bar, Siri, or any app via the Share Sheet (built for the Calendar layout, but compatible with others). It also captures optional shared URLs from your browser or other apps into a designated text property.
 
 ## Install
 
@@ -8,6 +8,8 @@ You can install the shortcut using either option below:
 
 * **Option 1 (iCloud Link):** Tap the [iOS & macOS Notion Quick Add Shortcut link](https://www.icloud.com/shortcuts/82191b3b26b6458cbd084023a44536dd) and tap **Add Shortcut** when prompted.
 * **Option 2 (Direct File):** Download the [To.Notion.GitHub.shortcut](https://github.com/Aifilesss/ios-macos-notion-quick-add-shortcut/releases/download/v1.0.0/To.Notion.GitHub.shortcut) file directly from this release and double-click it to import it into your Shortcuts app.
+
+*Tested and compatible with iOS 17+ and macOS Sonoma+.*
 
 Follow the Setup steps below before running it for the first time.
 
@@ -68,4 +70,5 @@ Your target database needs these three properties, named and typed exactly as be
 ### Notes
 
 - Keep your integration token private — anyone with it can write to any database you've shared with that integration.
+- **Siri Tip:** If you use Siri to trigger the shortcut, rename it to something distinct (like "Log Task") to avoid naming conflicts with the native Notion app.
 - **Troubleshooting:** If nothing appears in Notion after running the shortcut, make sure you have fully shared your database with your integration (see Step 2) and that your database ID is copied correctly with dashes.
