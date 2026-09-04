@@ -4,9 +4,12 @@ An Apple Shortcut for iOS and macOS that prompts you for custom task text, logs 
 
 ## Install
 
-1. Tap the shortcut link: **[Quick Add My Calendar → Notion](https://www.icloud.com/shortcuts/82191b3b26b6458cbd084023a44536dd)**
-2. Tap **Add Shortcut** when prompted.
-3. Follow the Setup steps below before running it for the first time.
+You can install the shortcut using either option below:
+
+* **Option 1 (iCloud Link):** Tap the [Quick Add My Calendar → Notion shortcut link](https://www.icloud.com/shortcuts/82191b3b26b6458cbd084023a44536dd) and tap **Add Shortcut** when prompted.
+* **Option 2 (Direct File):** Download the [Quick Add My Calendar → Notion.shortcut](https://github.com/Aifilesss/ios-notion-quick-add-shortcut/raw/main/Quick%20Add%20My%20Calendar%20→%20Notion.shortcut) file directly from this repository and double-click it to import it into your Shortcuts app.
+
+Follow the Setup steps below before running it for the first time.
 
 ## What it does
 
