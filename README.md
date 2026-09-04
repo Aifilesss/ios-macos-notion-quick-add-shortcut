@@ -23,7 +23,7 @@ Follow the Setup steps below before running it for the first time.
 
 Your target database needs these three properties, named and typed exactly as below (Notion property names are case-sensitive):
 
-| Property Name | Type      |
+| Property Name | Type       |
 |----------------|-----------|
 | `Name`         | Title     |
 | `Date`         | Date      |
@@ -47,18 +47,17 @@ Your target database needs these three properties, named and typed exactly as be
 
 1. Open your database as a full page (not a linked view)
 2. Copy the ID from the URL. It's the string of characters right after your workspace name and before any `?v=` parameter
-3. Format it with dashes in the pattern `8-4-4-4-12` characters, e.g.:
+3. Format it with dashes in the standard UUID pattern (`8-4-4-4-12`), making it 36 characters total, e.g.:
    `29668d3a-3879-80f1-b6f9-e940b3d96795`
 
 ### 4. Add your token and database ID to the shortcut
 
-1. Open the shortcut in the Shortcuts app → tap to edit
-2. Find the **Get Contents of URL** action → **Headers**
-3. Replace the `Authorization` header value:
-   `Bearer YOUR_NOTION_TOKEN_HERE` → `Bearer <your real token>`
-4. Scroll to **Request Body** → `parent` → `database_id`
-5. Replace `YOUR_DATABASE_ID_HERE` with your real database ID
-6. Tap **Done** to save
+1. Open the shortcut in the Shortcuts app → tap the three dots (`...`) to edit
+2. Locate the **Get Contents of URL** action
+3. Tap **Show More** (or tap directly on the headers/body fields to expand them)
+4. Under **Headers**, find the `Authorization` key. Replace `YOUR_NOTION_TOKEN_HERE` with your actual Notion Internal Integration Token, making sure to keep the word `Bearer ` and a single space in front of it (e.g., `Bearer secret_abc123...`)
+5. Under **Request Body**, locate `parent` → `database_id` and replace `YOUR_DATABASE_ID_HERE` with your real database ID (the 36-character dashed ID)
+6. Tap **Done** in the top right to save your changes
 
 ### 5. Enable Share Sheet (optional, for capturing shared links)
 
@@ -70,3 +69,5 @@ Your target database needs these three properties, named and typed exactly as be
 
 - Keep your integration token private — anyone with it can write to any database you've shared with that integration.
 - **Troubleshooting:** If nothing appears in Notion after running the shortcut, make sure you have fully shared your database with your integration (see Step 2) and that your database ID is copied correctly with dashes.
+
+```
