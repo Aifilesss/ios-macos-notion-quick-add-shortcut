@@ -1,4 +1,4 @@
-# Quick Add My Calendar → Notion
+# Notion Quick Add Task Shortcut
 
 An Apple Shortcut for iOS and macOS that prompts you for custom task text, logs today's date, and creates a new page in a Notion database. Trigger it from your home screen, menu bar, or any app via the Share Sheet (built for the Calendar layout, but compatible with others). It also captures optional shared URLs from your browser or other apps into a designated text property.
 
