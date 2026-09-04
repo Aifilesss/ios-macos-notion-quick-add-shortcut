@@ -1,6 +1,6 @@
 # Quick Add My Calendar → Notion
 
-An iOS Shortcut that prompts for a task name, grabs today's date, and creates a new page in a Notion database. Also works from the Share Sheet in any browser or app, capturing the shared page's URL into a Text field.
+An iOS Shortcut that prompts you for a task name, pulls today's date, and creates a new page in a Notion database (built for the Calendar layout, but compatible with others). It also works from the Share Sheet in any app or browser, capturing the shared page's URL into a Text field.
 
 ## Install
 
